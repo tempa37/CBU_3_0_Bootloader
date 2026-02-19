@@ -1,0 +1,13 @@
+# ninja log v6
+1	77	7931158758795638	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_9345438667183768884.dir/main.c.json	b40890ac603f041c
+78	151	7931158759631353	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_4418158440502777020.dir/stm32f1xx_it.c.json	804f2569cc38853f
+152	253	7931158760296905	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_6596634332695065529.dir/system_stm32f1xx.c.json	ec43d5674b35e440
+254	387	7931158761392634	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_14263004919911482554.dir/stm32f1xx_ll_dma.c.json	b774423a25998fb2
+388	495	7931158762692801	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_16957054741768683587.dir/stm32f1xx_ll_exti.c.json	2cf4713bc7f07e41
+496	605	7931158763809103	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_13247763213888326448.dir/stm32f1xx_ll_gpio.c.json	bae7b7da5b6d4fad
+605	699	7931158764905522	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_16932395104004069097.dir/stm32f1xx_ll_pwr.c.json	b7073af5eef2fb50
+699	773	7931158765846852	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_798614804343613728.dir/stm32f1xx_ll_rcc.c.json	18d722281fcc0673
+774	860	7931158766592610	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_17270669736621262025.dir/stm32f1xx_ll_tim.c.json	de51748190996591
+860	938	7931158767394264	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_17060638669193020800.dir/stm32f1xx_ll_usart.c.json	5fd724559bed1f50
+939	1013	7931158768192829	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/BrowseInfo/Src_5553637711745593025.dir/stm32f1xx_ll_utils.c.json	8144dfe75d5b380f
+1013	1038	7931158768992494	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/compile_commands.json	a6bb09f51644d821
