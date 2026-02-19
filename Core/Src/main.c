@@ -123,13 +123,13 @@ void JumpToApp(void) {
 
     // 3) сбросить USART1
     LL_USART_Disable(USART2);
-    LL_APB1_GRP2_ForceReset(LL_APB1_GRP2_PERIPH_USART2);
-    LL_APB1_GRP2_ReleaseReset(LL_APB1_GRP2_PERIPH_USART2);
+    LL_APB1_GRP1_ForceReset(LL_APB1_GRP1_PERIPH_USART2);
+    LL_APB1_GRP1_ReleaseReset(LL_APB1_GRP1_PERIPH_USART2);
 
     // 4) сбросить DMA‑канал (тот, что RX)
     LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_6);
-    LL_AHB1_GRP1_ForceReset(LL_AHB1_GRP1_PERIPH_DMA1);
-    LL_AHB1_GRP1_ReleaseReset(LL_AHB1_GRP1_PERIPH_DMA1);
+    LL_AHB1_GRP1_DisableClock(LL_AHB1_GRP1_PERIPH_DMA1);
+    LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_DMA1);
     DMA1->IFCR = 0xFFFFFFFFu;
 
     // 5) отключить и сбросить NVIC
