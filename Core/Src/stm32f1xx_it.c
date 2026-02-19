@@ -26,7 +26,10 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-
+#define buf_size_rx             100
+extern void MY_UARTEx_RxEventCallback(uint16_t Size);
+extern uint8_t receive_buf[buf_size_rx];
+extern volatile uint32_t tick;
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -316,7 +319,37 @@ void TIM2_IRQHandler(void)
 void USART2_IRQHandler(void)
 {
   /* USER CODE BEGIN USART2_IRQn 0 */
+    /* --- IDLE: конец приёма пакета ------------------------------------- */
+    if (LL_USART_IsActiveFlag_IDLE(USART2))
+    {
+        LL_USART_ClearFlag_IDLE(USART2);       /* 1. сброс флага IDLE      */
+        (void)USART2->SR;                     /* 2. чтение ISR + RDR      */
+        (void)USART2->DR;                     /*    (по errata ST)        */
 
+        /* 3. останавливаем DMA‑канал, узнаём, сколько приняли */
+        LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_6);
+        uint16_t rx_len = buf_size_rx - LL_DMA_GetDataLength(DMA1, LL_DMA_CHANNEL_6);
+
+        /* 4. обработай приём здесь */
+       // MY_UARTEx_RxEventCallback(receive_buf, rx_len);    /* <- твоя функция */
+        MY_UARTEx_RxEventCallback(rx_len);
+        /* 5. снова ждём новый пакет */
+        LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_6, buf_size_rx);
+        LL_DMA_EnableChannel (DMA1, LL_DMA_CHANNEL_6);
+    }
+
+    /* --- Обработка ошибок ------------------------------------------------ */
+    if (LL_USART_IsActiveFlag_FE (USART2) ||   /* Framing error   */
+        LL_USART_IsActiveFlag_NE (USART2) ||   /* Noise error     */
+        LL_USART_IsActiveFlag_ORE(USART2))     /* Overrun error   */
+    {
+        /* читаем RDR, чтобы сбросить ошибку, и перезапускаем приём */
+        (void)USART2->DR;
+        LL_USART_ClearFlag_FE (USART2);
+        LL_USART_ClearFlag_NE (USART2);
+        LL_USART_ClearFlag_ORE(USART2);
+                          
+    }
   /* USER CODE END USART2_IRQn 0 */
   /* USER CODE BEGIN USART2_IRQn 1 */
 

@@ -24,7 +24,7 @@ C:\iar\ewarm-9.70.1\arm\config\debugger\ST\STM32F103C8.ddf
 
 --drv_debug_ap=0
 
---stlink_probe=stlinkv2
+--stlink_probe=stlinkv3
 
 
 

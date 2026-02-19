@@ -26,3 +26,21 @@
 850	1036	7931158910994198	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	5e129e064acb3cc8
 850	1036	7931158910994198	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	5e129e064acb3cc8
 1036	1054	7931158912858140	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
+22	290	7932045126259674	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/mbcrc.o	3736421ca34af5c4
+22	290	7932045126259674	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/mbcrc.o	3736421ca34af5c4
+18	401	7932045126218719	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
+18	401	7932045126218719	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
+402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
+402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
+402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
+402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
+552	560	7932045131505424	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
+3	406	7932095921457958	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
+3	406	7932095921457958	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
+407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
+407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
+407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
+407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
+470	479	7932095926129036	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
+10	279	7932127418480860	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921
+10	279	7932127418480860	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921

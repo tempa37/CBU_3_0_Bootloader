@@ -796,7 +796,7 @@
                 </option>
                 <option>
                     <name>IjetPreferETB</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IjetTraceSettingsList</name>
@@ -1290,7 +1290,7 @@
                 <option>
                     <name>CCSTLinkProbeList</name>
                     <version>2</version>
-                    <state>2</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CCSTLinkTargetVccEnable</name>

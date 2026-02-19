@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.70.1.475/W64 for ARM                  18/Feb/2026  18:04:51
+# IAR ELF Linker V9.70.1.475/W64 for ARM                  19/Feb/2026  20:06:32
 # Copyright 2007-2025 IAR Systems AB.
 #
 #    Output file  =
@@ -17,6 +17,9 @@
 #        (2)\Exe\ЦБУ_слейв МК (2).out.rsp" ("C:\Users\User\Desktop\Активные
 #        проекты\CBU_F103\CBU_3_0_BOOTLOADER\EWARM\ЦБУ_слейв МК
 #        (2)\Obj\Core_13247989168731456611.dir\main.o"
+#        "C:\Users\User\Desktop\Активные
+#        проекты\CBU_F103\CBU_3_0_BOOTLOADER\EWARM\ЦБУ_слейв МК
+#        (2)\Obj\Core_13247989168731456611.dir\mbcrc.o"
 #        "C:\Users\User\Desktop\Активные
 #        проекты\CBU_F103\CBU_3_0_BOOTLOADER\EWARM\ЦБУ_слейв МК
 #        (2)\Obj\EWARM_18443280873093131863.dir\startup_stm32f103xb.o"
