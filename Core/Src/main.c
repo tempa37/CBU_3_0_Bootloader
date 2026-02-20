@@ -345,11 +345,20 @@ void OS_usave_packet(uint16_t rx_len)
       /* отправляем подтверждение */
       send_ack(pkt_num);
 
-      /* если это последний пакет — пишем флаг и прыгаем */
+      /* если это последний пакет — валидируем всю прошивку CRC */
       if (pkt_num == total_pkts) {
-          flash_program_halfword(UPDATE_FLAG, 0xFFFFu);
+          uint16_t crc_calc = FW_CalcCrc_ExcludeTail2();
+          uint16_t crc_ref = *(volatile uint16_t *)(END_APP_ADDR - 1u);
+
+          crc_calc = swap_bytes16(crc_calc);
+          if (crc_calc == crc_ref) {
+              flash_program_halfword(UPDATE_FLAG, 0xFFFFu);
+          } else {
+              send_ack(0xFFFFu);
+              flash_program_halfword(UPDATE_FLAG, 0x1111u);
+          }
+
           flash_lock();
-          //JumpToApp();
           time_x = 0;
       }
     }
