@@ -485,15 +485,15 @@ void SwitchToReceive(void) {
     }
   
     // Сброс флагов ошибки и IDLE
-    LL_USART_ClearFlag_IDLE(USART1);
-    LL_USART_ClearFlag_FE(USART1);
-    LL_USART_ClearFlag_NE(USART1);
-    LL_USART_ClearFlag_ORE(USART1);
+    LL_USART_ClearFlag_IDLE(USART2);
+    LL_USART_ClearFlag_FE(USART2);
+    LL_USART_ClearFlag_NE(USART2);
+    LL_USART_ClearFlag_ORE(USART2);
 
     // Сбросить длину DMA до полного буфера и запустить приём
-    LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_3);
-    LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_3, buf_size_rx);
-    LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_3);
+    LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_6);
+    LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_6, buf_size_rx);
+    LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_6);
 }
 /* USER CODE END 0 */
 
@@ -542,7 +542,17 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-
+  LL_USART_EnableIT_IDLE(USART2);
+  
+  LL_DMA_SetPeriphAddress(DMA1, LL_DMA_CHANNEL_6, (uint32_t)&USART2->DR);
+  LL_DMA_SetMemoryAddress(DMA1, LL_DMA_CHANNEL_6, (uint32_t)receive_buf);
+  LL_USART_EnableDMAReq_RX(USART2);
+  
+  
+  
+  SystemCoreClockUpdate();                 // обновить SystemCoreClock
+  SysTick_Config(SystemCoreClock / 1000u); // 1 мс тик
+  SwitchToReceive();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -561,10 +571,8 @@ int main(void)
       }
       
       
-      
       volatile uint16_t OS = *(volatile uint16_t *)(END_APP_ADDR - 1);
 
-      
       
       if(flag == 0x1111u)
       {

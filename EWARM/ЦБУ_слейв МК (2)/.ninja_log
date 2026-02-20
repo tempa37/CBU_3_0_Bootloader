@@ -1,46 +1,17 @@
 # ninja log v6
-12	324	7931158902593767	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/CMSIS_6603591812247902717.dir/system_stm32f1xx.o	77aaf69714429087
-12	324	7931158902593767	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/CMSIS_6603591812247902717.dir/system_stm32f1xx.o	77aaf69714429087
-8	354	7931158902528621	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921
-8	354	7931158902528621	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921
-18	360	7931158902593767	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_dma.o	7a5b5f2fa328823b
-18	360	7931158902593767	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_dma.o	7a5b5f2fa328823b
-325	484	7931158905737188	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_exti.o	3c5626924978fdf6
-325	484	7931158905737188	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_exti.o	3c5626924978fdf6
-361	511	7931158906091795	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_pwr.o	871c2dd5fe65352
-361	511	7931158906091795	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_pwr.o	871c2dd5fe65352
-2	536	7931158902508356	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-2	536	7931158902508356	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-356	565	7931158906011536	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_gpio.o	c69d38b7a1021100
-356	565	7931158906011536	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_gpio.o	c69d38b7a1021100
-485	702	7931158907296316	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_rcc.o	15bf3efa03fc75c4
-485	702	7931158907296316	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_rcc.o	15bf3efa03fc75c4
-537	804	7931158907857721	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_usart.o	5c66da40db5ac70d
-537	804	7931158907857721	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_usart.o	5c66da40db5ac70d
-566	805	7931158908102533	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_utils.o	fa00dc61f9320b9f
-566	805	7931158908102533	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_utils.o	fa00dc61f9320b9f
-513	827	7931158907594414	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_tim.o	4c3c172ba8367a6e
-513	827	7931158907594414	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_tim.o	4c3c172ba8367a6e
+8	361	7932156150349679	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	4fe13e3e2c5d299f
+544	714	7932156155715658	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_usart.o	e041975652bb2714
+12	232	7932156150389542	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/CMSIS_6603591812247902717.dir/system_stm32f1xx.o	eb16e9359da73da9
+233	404	7932156152598342	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_dma.o	2cc0644b06e8e4b8
+268	424	7932156152943521	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_exti.o	6ab2c6f8f35c58ca
+405	530	7932156154322266	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_pwr.o	ce6dccdc4b554162
+17	579	7932777060193145	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	f8e6b78c36e9a566
+362	543	7932156153886144	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_gpio.o	8bf8aba360371c
 703	850	7931158909501616	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/EWARM_18443280873093131863.dir/startup_stm32f103xb.o	2c39e1d63230482
-850	1036	7931158910994198	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	5e129e064acb3cc8
-850	1036	7931158910994198	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	5e129e064acb3cc8
-850	1036	7931158910994198	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	5e129e064acb3cc8
-1036	1054	7931158912858140	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
-22	290	7932045126259674	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/mbcrc.o	3736421ca34af5c4
-22	290	7932045126259674	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/mbcrc.o	3736421ca34af5c4
-18	401	7932045126218719	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-18	401	7932045126218719	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
-402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
-402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
-402	551	7932045130006358	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
-552	560	7932045131505424	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
-3	406	7932095921457958	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-3	406	7932095921457958	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/main.o	ef5aa38d47ffef5
-407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
-407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
-407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
-407	468	7932095925501109	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
-470	479	7932095926129036	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
-10	279	7932127418480860	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921
-10	279	7932127418480860	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/stm32f1xx_it.o	9c5836344ea50921
+425	605	7932156154521600	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_rcc.o	c276b928610edc3
+601	776	7932156156278274	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_utils.o	b6fba1785b065291
+531	768	7932156155581733	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/STM32F1xx_HAL_Driver_9701002599162248031.dir/stm32f1xx_ll_tim.o	6644aa0112ac9148
+580	815	7932777065749762	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).out	129ce42d56e2e345
+580	815	7932777065749762	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/List/ЦБУ_слейв МК (2).map	129ce42d56e2e345
+817	870	7932777068081726	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Exe/ЦБУ_слейв МК (2).hex	17fb157b801a9e9f
+5	267	7932156150319771	C:/Users/User/Desktop/Активные проекты/CBU_F103/CBU_3_0_BOOTLOADER/EWARM/ЦБУ_слейв МК (2)/Obj/Core_13247989168731456611.dir/mbcrc.o	aca6179a8feda3ba
