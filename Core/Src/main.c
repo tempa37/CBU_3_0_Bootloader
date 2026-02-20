@@ -49,7 +49,7 @@ typedef void (*pAppEntry)(void);
 
 #define FLASH_CFG_PAGE_ADDR    APP_FLASH_CFG_START
 
-#define UPDATE_FLAG            APP_FLASH_CFG_START
+#define UPDATE_FLAG            (APP_FLASH_CFG_START + 4)
 #define FLASH_PAGE_SIZE        1024U
 
 #define UPDATE_TIMEOUT_LOOPS 100000U    
@@ -482,6 +482,10 @@ void Update(void)
     // 2) Сбрасываем адрес записи под новую прошивку
     flash_write_addr = APP_ADDR;
     number = 1;
+    
+    
+    __disable_irq();
+    NVIC_SystemReset();
 }
     
 
@@ -602,6 +606,12 @@ int main(void)
                     Update();
                     time_x = 0;
                   }
+                }
+                else if (time_x >= TIME_X_MAX)
+                {
+                  flash_write_addr = APP_ADDR;
+                  number = 1;
+                  time_x = 0;
                 }
               }
       }
