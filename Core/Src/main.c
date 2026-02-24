@@ -485,15 +485,15 @@ void SwitchToReceive(void) {
     }
   
     // Сброс флагов ошибки и IDLE
-    LL_USART_ClearFlag_IDLE(USART1);
-    LL_USART_ClearFlag_FE(USART1);
-    LL_USART_ClearFlag_NE(USART1);
-    LL_USART_ClearFlag_ORE(USART1);
+    LL_USART_ClearFlag_IDLE(USART2);
+    LL_USART_ClearFlag_FE(USART2);
+    LL_USART_ClearFlag_NE(USART2);
+    LL_USART_ClearFlag_ORE(USART2);
 
     // Сбросить длину DMA до полного буфера и запустить приём
-    LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_3);
-    LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_3, buf_size_rx);
-    LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_3);
+    LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_6);
+    LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_6, buf_size_rx);
+    LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_6);
 }
 /* USER CODE END 0 */
 
